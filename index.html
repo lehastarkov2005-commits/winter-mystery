@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Times New Roman', serif;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.5em;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>ВЕБ-КАМЕРЫ ВКЛЮЧИТЬ</h1>
+        <p>Когда воет метель и волк за окном, герой понимает - пора выходить...</p>
+    </div>
+
+    <audio autoplay loop>
+        <source src="sound.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
